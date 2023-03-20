@@ -1,3 +1,7 @@
+# replit.nix = Every new repl is now a Nix repl, which means you can install any package available on Nix.
+# https://search.nixos.org/packages
+# The 'deps' array specifies which Nix packages you would like to be available in your environment.
+
 { pkgs }: {
     deps = [
         pkgs.unzip
@@ -17,8 +21,4 @@
         ];
     };
 }
-
-# replit.nix = Every new repl is now a Nix repl, which means you can install any package available on Nix.
-# https://search.nixos.org/packages
-# The 'deps' array specifies which Nix packages you would like to be available in your environment.
 
