@@ -1,4 +1,9 @@
-# The command that is executed when the run button is clicked.
+# The .replit file allows you to configure many options for your repl, most basic of which is the run command.
+# .replit files follow the toml configuration format
+# https://learnxinyminutes.com/docs/toml/
+
+
+# The command that is executed when the run button is clicked.
 run = ["cargo", "run"]
 
 # The default file opened in the editor.
@@ -28,6 +33,3 @@ pattern = "**/*.rs"
     [languages.rust.languageServer]
     start = ["rust-analyzer"]
 
-# The .replit file allows you to configure many options for your repl, most basic of which is the run command.
-# .replit files follow the toml configuration format
-# https://learnxinyminutes.com/docs/toml/
