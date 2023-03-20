@@ -1,10 +1,21 @@
 { pkgs }: {
     deps = [
-        pkgs.graalvm17-ce 
+        pkgs.unzip
+        pkgs.graalvm17-ce
         pkgs.maven
         pkgs.replitPackages.jdt-language-server
         pkgs.replitPackages.java-debug
+        pkgs.xorg.libX11
+				# pkgs.scenebuilder
     ];
+    env = {
+        LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
+            pkgs.xorg.libX11
+            pkgs.xorg.libXxf86vm
+            pkgs.libGL
+            pkgs.xorg.libXtst
+        ];
+    };
 }
 
 # replit.nix = Every new repl is now a Nix repl, which means you can install any package available on Nix.
