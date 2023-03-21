@@ -2,6 +2,7 @@
 # replit.nix = Every new repl is now a Nix repl, which means you can install any package available on Nix.
 # https://search.nixos.org/packages
 # The 'deps' array specifies which Nix packages you would like to be available in your environment.
+
 # pkgs.graalvm17-ce = High-performance runtime with new compiler optimizations to accelerate Java application performance 
 # and lower infrastructure costs on premises and in the cloud
 # pkgs.maven = Apache Maven is a software project management and comprehension tool. 
