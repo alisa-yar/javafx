@@ -33,7 +33,7 @@
     deps = [
         pkgs.unzip
         pkgs.graalvm17-ce
-        pkgs.maven
+       pkgs.maven
         pkgs.replitPackages.jdt-language-server
         pkgs.replitPackages.java-debug
         pkgs.xorg.libX11
@@ -49,9 +49,7 @@
     };
 }
 
-
-
-
+# pkgs.xorg.libXxf86vm = X.Org Xxf86vm library
 
 
 
