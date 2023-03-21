@@ -3,8 +3,8 @@
 # https://learnxinyminutes.com/docs/toml/
 
 
-# The command that is executed when the run button is clicked.
-run = ["cargo", "run"]
+# The command that is executed when the run button is clicked
+run = "cargo"
 
 # The default file opened in the editor.
 entrypoint = "src/main.rs"
