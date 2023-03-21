@@ -2,8 +2,8 @@
 # .replit files follow the toml configuration format
 # https://learnxinyminutes.com/docs/toml/
 
-
 # The command that is executed when the run button is clicked.
+run = "cargo"
 run = ["cargo", "run"]
 
 # The default file opened in the editor.
