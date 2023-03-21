@@ -12,7 +12,13 @@
 # and can be used with any editor that supports the protocol, to offer good support for the Java Language
 # https://github.com/eclipse/eclipse.jdt.ls
 # pkgs.replitPackages.java-debug = 
-# pkgs.xorg.libX11 =
+# pkgs.xorg.libX11 = X11 client-side library
+# The original C-language X11 API is libX11, often referred to as "Xlib". 
+# It was designed to look like a traditional library API, hiding the fact that calls result in protocol requests to a server. 
+# Calls that don't require a response from the X server are queued in a buffer to be sent as a batch of requests to the server. 
+# Those that require a response flush all the buffered requests and then block until the response is received.
+
+
 
 { pkgs }: {
     deps = [
