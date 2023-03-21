@@ -12,8 +12,8 @@
 # and can be used with any editor that supports the protocol, to offer good support for the Java Language
 # https://github.com/eclipse/eclipse.jdt.ls
 # pkgs.replitPackages.java-debug = 
-# pkgs.xorg.libX11 = X11 client-side library
 
+# pkgs.xorg.libX11 = X11 client-side library
 # Most programming languages make it awkward for X applications to spit raw X protocol down the network and take apart the protocol coming back. 
 # Thus, X toolkits and applications are a lot easier to write if some library handles these jobs for them, providing an API that fits with the programming language and environment for connecting to the X server.
 # At the bottom level of the X client library stack are Xlib and XCB, two helper libraries (really sets of libraries) that provide API for talking to the X server. 
