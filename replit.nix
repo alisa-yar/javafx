@@ -28,6 +28,7 @@
 # Calls that don't require a response from the X server are queued in a buffer to be sent as a batch of requests to the server. 
 # Those that require a response flush all the buffered requests and then block until the response is received.
 
+# pkgs.scenebuilder = A visual, drag'n'drop, layout tool for designing JavaFX application user interfaces.
 
 { pkgs }: {
     deps = [
