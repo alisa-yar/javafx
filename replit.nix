@@ -4,7 +4,8 @@
 # The 'deps' array specifies which Nix packages you would like to be available in your environment.
 # pkgs.graalvm17-ce = High-performance runtime with new compiler optimizations to accelerate Java application performance 
 # and lower infrastructure costs on premises and in the cloud
-# pkgs.maven = 
+# pkgs.maven = Apache Maven is a software project management and comprehension tool. 
+# Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
 { pkgs }: {
     deps = [
