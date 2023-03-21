@@ -51,7 +51,8 @@
 
 # pkgs.xorg.libX11 = 
 # pkgs.xorg.libXxf86vm = X.Org Xxf86vm library
-
+# pkgs.libGL = 
+# pkgs.xorg.libXtst =
 
 
 
