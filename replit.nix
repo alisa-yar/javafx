@@ -13,6 +13,11 @@
 # https://github.com/eclipse/eclipse.jdt.ls
 # pkgs.replitPackages.java-debug = 
 # pkgs.xorg.libX11 = X11 client-side library
+
+# Most programming languages make it awkward for X applications to spit raw X protocol down the network and take apart the protocol coming back. 
+# Thus, X toolkits and applications are a lot easier to write if some library handles these jobs for them, providing an API that fits with the programming language and environment for connecting to the X server.
+# At the bottom level of the X client library stack are Xlib and XCB, two helper libraries (really sets of libraries) that provide API for talking to the X server. 
+# Xlib and XCB have different design goals, and were developed in different periods in the evolution of the X Window System.
 # The original C-language X11 API is libX11, often referred to as "Xlib". 
 # It was designed to look like a traditional library API, hiding the fact that calls result in protocol requests to a server. 
 # Calls that don't require a response from the X server are queued in a buffer to be sent as a batch of requests to the server. 
