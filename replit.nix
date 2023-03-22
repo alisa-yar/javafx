@@ -10,6 +10,12 @@
 
 # pkgs.maven = Apache Maven is a software project management and comprehension tool. 
 # Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
+# Build tool is essential for the process of building. It is needed for the following processes:
+# • Generating source code
+# • Generating documentation from the source code
+# • Compiling of source code
+# • Packaging of the complied codes into JAR files
+# • Installing the packaged code in local repository, server or central repository
 
 # pkgs.jdt-language-server = Java language server. 
 # The Eclipse JDT Language Server is a Java language specific implementation of the Language Server Protocol 
