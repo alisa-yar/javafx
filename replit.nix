@@ -8,7 +8,8 @@
 # pkgs.graalvm17-ce = High-performance runtime with new compiler optimizations to accelerate Java application performance 
 # and lower infrastructure costs on premises and in the cloud
 
-# pkgs.maven = Apache Maven is a software project management and comprehension tool. 
+########## MAVEN (pkgs.maven) ########## 
+# Apache Maven is a software project management and comprehension tool. 
 # Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 # Build tool is essential for the process of building. It is needed for the following processes:
 # • Generating source code
@@ -16,6 +17,9 @@
 # • Compiling of source code
 # • Packaging of the complied codes into JAR files
 # • Installing the packaged code in local repository, server or central repository
+# Project Object Model (POM) = an XML file that has all the information regarding project and configuration details.
+# When we tend to execute a task, Maven searches for the POM in the current directory
+
 
 # pkgs.jdt-language-server = Java language server. 
 # The Eclipse JDT Language Server is a Java language specific implementation of the Language Server Protocol 
