@@ -8,7 +8,7 @@
 # pkgs.graalvm17-ce = High-performance runtime with new compiler optimizations to accelerate Java application performance 
 # and lower infrastructure costs on premises and in the cloud
 
-########## MAVEN (pkgs.maven) ########## 
+########## pkgs.maven (MAVEN) ########## 
 # Apache Maven is a software project management and comprehension tool. 
 # Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 # Build tool is essential for the process of building. It is needed for the following processes:
