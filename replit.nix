@@ -23,14 +23,16 @@
 # Project Object Model (POM) = an XML file that has all the information regarding project and configuration details.
 # When we tend to execute a task, Maven searches for the POM in the current directory
 
-
+########## pkgs.graalvm17-ce ########## 
 # pkgs.jdt-language-server = Java language server. 
 # The Eclipse JDT Language Server is a Java language specific implementation of the Language Server Protocol 
 # and can be used with any editor that supports the protocol, to offer good support for the Java Language
 # https://github.com/eclipse/eclipse.jdt.ls
 
-# pkgs.replitPackages.java-debug = 
 
+########## pkgs.replitPackages.java-debug ##########
+
+########## pkgs.graalvm17-ce ########## 
 # pkgs.xorg.libX11 = X11 client-side library
 # Most programming languages make it awkward for X applications to spit raw X protocol down the network and take apart the protocol coming back. 
 # Thus, X toolkits and applications are a lot easier to write if some library handles these jobs for them, providing an API that fits with the programming language and environment for connecting to the X server.
@@ -41,6 +43,7 @@
 # Calls that don't require a response from the X server are queued in a buffer to be sent as a batch of requests to the server. 
 # Those that require a response flush all the buffered requests and then block until the response is received.
 
+########## pkgs.graalvm17-ce ########## 
 # pkgs.scenebuilder = A visual, drag'n'drop, layout tool for designing JavaFX application user interfaces.
 
 { pkgs }: {
