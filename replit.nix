@@ -14,12 +14,6 @@
 ########## pkgs.maven (MAVEN) ########## 
 # Apache Maven is a software project management and comprehension tool. 
 # Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
-# Build tool is essential for the process of building. It is needed for the following processes:
-# • Generating source code
-# • Generating documentation from the source code
-# • Compiling of source code
-# • Packaging of the complied codes into JAR files
-# • Installing the packaged code in local repository, server or central repository
 # Project Object Model (POM) = an XML file that has all the information regarding project and configuration details.
 # When we tend to execute a task, Maven searches for the POM in the current directory
 
